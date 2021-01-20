@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, width=device-width">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Base pug template for lightning fast html-coding">
+  <meta name="keywords" content="">
+  <title>Modals alerts test</title>
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <body class="body">
+    <div class="wrapper">
+      <header class="header"></header>
+      <main class="content">
+        <div class="button-wrapper">
+          <h1 class="title">Modals alerts test</h1><a class="btn modal-link" href="#modal">Remove brand</a>
+        </div>
+      </main>
+      <div class="modal" id="modal">
+        <div class="modal__cont">
+          <div class="modal-header"><span class="modal__title">Remove brand</span>
+            <div class="btn-close"></div>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body__cont">
+              <div class="modal__icon-cont">
+                <svg class="icon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="16" cy="16" r="11.5" stroke="#FBCB00"></circle>
+                  <path d="M16 10v8M16 20v2" stroke="#FBCB00"></path>
+                </svg>
+              </div>
+              <div class="modal-body__content"><span class="modal__subtitle">Are sure you wish to&nbsp;remove FAME_4?</span>
+                <p class="modal__txt">The remaining stocks are worth: $768.231</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn--bordless">No</button>
+            <button class="btn">Yes</button>
+          </div>
+        </div>
+        <div class="modal-bg"></div>
+      </div>
+      <footer class="footer"></footer>
+    </div>
+  </body>
+  <script src="assets/js/all.min.js"></script>
+</html>
